@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Lattice Lab · redirecting</title>
+<meta name="robots" content="noindex">
+<script>
+  // lab.cybercipher.cc/<path> → cybercipher.cc/lab/<path>
+  var p = location.pathname.replace(/^\/+/, "");
+  location.replace("https://cybercipher.cc/lab/" + p + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://cybercipher.cc/lab/">
+</head><body><p>Lattice Lab has moved to <a href="https://cybercipher.cc/lab/">cybercipher.cc/lab</a>.</p></body></html>
